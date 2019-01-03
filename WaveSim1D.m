@@ -5,8 +5,7 @@ h=0.001;
 gamma=1;
 lambda=(gamma*k)/h
 x=0:h:1;
-t=0:k:2-k;;
-sigma=0.2;
+t=0:k:2-k;
 
 %raised cosine pulse parameters
 c0=1;
