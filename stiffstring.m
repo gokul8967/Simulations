@@ -10,9 +10,6 @@ mu=kappa*k/(h)^2;
 hmin=sqrt((gamma^2*k^2)+sqrt((gamma^4*k^4)+16*(kappa^2*k^2)))
 x=0:h:1;
 t=0:k:2-k;
-sigma=0.2;
-
-
 
 %raised cosine pulse params
 c0=1;
@@ -48,7 +45,7 @@ for i = 2:a(1)-1
 end
 energy=kinetic+potential;
 
-%plot 
+%plots 
 
 subplot(211)
 plot(t,kinetic,t,potential,t,energy);
